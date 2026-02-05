@@ -151,3 +151,49 @@ main {
   
 }
 
+.placeholder {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+  "a a b b"
+  "c d d e"
+  "f f g h";
+}
+
+.placeholder div {
+  background-color: #eee;
+  height: 8rem;
+  border-radius: 8px;
+}
+
+.ph-1 {
+  grid-area: a;
+}
+
+.ph-2 {
+  grid-area: b;
+}
+
+.ph-3 {
+  grid-area: c;
+}
+
+.ph-4 {
+  grid-area: d;
+}
+
+.ph-5 {
+  grid-area: e;
+}
+
+.ph-6 {
+  grid-area: f;
+}
+
+.ph-7 {
+  grid-area: g;
+}
+
+.ph-8 {
+  grid-area: h;
+}
